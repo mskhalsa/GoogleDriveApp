@@ -31,6 +31,7 @@ The app features a user-friendly interface built using Bootstrap, providing a re
 ### Steps to get Google OAuth 2.0 credentials
 1. Create a Google Cloud Project and enable the Google Drive API.
 2. Generate an OAuth 2.0 Client ID under APIs & Services > Credentials.
+3. For redirect URL enter: ```http://localhost:5002/oauth2callback```
 3. Download the ```client_secret.json``` file and place it in the root directory of the project.
 4. Rename the file to be just -> ```client_secret.json```.
 5. Put the ```client_secret.json``` in the GoogleDriveApp repository like so:
